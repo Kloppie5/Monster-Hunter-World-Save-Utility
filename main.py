@@ -1,3 +1,5 @@
+from savefile import Savefile
 
 if __name__ == '__main__':
-    print('Hello World!')
+    savefile = Savefile()
+    savefile.read_savefile("savefiles/SAVEDATA1000")
